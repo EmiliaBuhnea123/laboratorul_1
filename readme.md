@@ -171,11 +171,17 @@ User-Agent: John Doe
 ```
 
 _200 OK - Serverul va returna acest cod dacă crerea a fost procesată cu succes, dar resursa deja există și nu se mai creează alta nouă._
+
 _201 Created - Serverul va returna acest cod dacă cererea a fost procesată cu succes și a fost creată o nouă mașină._
+
 _400 Bad Request- Serverul va returna acest cod dacă datele trimise în cerere sunt incorecte sau nu sunt valide._
+
 _401 Unauthorized - Serverul va returna acest cod dacă utilizatorul nu este autentificat și nu are permisiunea de a crea o mașină._
+
 _403 Forbidden - Serverul va returna acest cod dacă utilizatorul este autentificat, dar nu are permisiunea necesară pentru a crea o mașină._
+
 _404 Not Found - Serverul va returna acest cod dacă resursa (http://sandbox.com/cars) nu a fost găsit pe server._
+
 _500 Internal Server Error - Serverul va returna acest cod dacă acesta a întâmpinat o eroare internă neașteptată care a împiedicat finalizarea cererii._
 
 
@@ -189,7 +195,7 @@ Connection: keep-alive
 
 User-Agent: Buhnea Emilia
 
-Metoda DELETE este potrivită, deoarece aceasta este metoda reposnsabilă de ștergerea unei resurse specifice de pe server și anume în acest caz resursa care are ID-ul 1. Acest ID este scris în URL.
+_Metoda DELETE este potrivită, deoarece aceasta este metoda reposnsabilă de ștergerea unei resurse specifice de pe server și anume în acest caz resursa care are ID-ul 1. Acest ID este scris în URL._
 
 
 # __Sarcina nr. 3. Sarcina suplimentară. HTTP_Quest__
