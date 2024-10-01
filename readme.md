@@ -8,7 +8,7 @@
 
 Pentru a trimite cererea a fost utilizată metoda HTTP - POST
 
-## 2. Ce anteturi au fost trimise în cerere?
+### 2. Ce anteturi au fost trimise în cerere?
 
 accept: \*/\*
 
@@ -106,7 +106,7 @@ server: nginx/1.24.0 (Ubuntu)
 
 transfer-encoding:chunked
 
-# __Sarcina nr. 2. Crearea cererilor HTTP__
+## __Sarcina nr. 2. Crearea cererilor HTTP__
 
 ### 1. Scrieți o cerere de tip GET către server la adresa http://sandbox.com, indicând în antetul User-Agent numele și prenumele dvs.
 
