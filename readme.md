@@ -100,11 +100,13 @@
 #### Host: sandbox.com
 #### Content-type: application/json
 #### User-Agent: Buhnea Emilia
-#### {
+```json
+ {
     "make": "Toyota"
     "model": "Corolla"
     "year": "2021"
-#### }
+ }
+```
 
 ## 4. Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară. http POST /cars HTTP/1.1 Host: sandbox.com Content-Type: application/json User-Agent: John Doe model=Corolla&make=Toyota&year=2020 Presupuneți situațiile în care serverul poate returna codurile de stare HTTP 200, 201, 400, 401, 403, 404, 500.
 
