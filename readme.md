@@ -1,12 +1,12 @@
 # Laboratorul_1
 
-# __Sarcina nr. 1. Analiza cererilor HTTP__
+## __Sarcina nr. 1. Analiza cererilor HTTP__
 
-## _Date greșite_
+### _Date greșite_
 
-## 1. Ce metodă HTTP a fost utilizată pentru a trimite cererea?
+### 1. Ce metodă HTTP a fost utilizată pentru a trimite cererea?
 
-#### Pentru a trimite cererea a fost utilizată metoda HTTP - POST
+Pentru a trimite cererea a fost utilizată metoda HTTP - POST
 
 ## 2. Ce anteturi au fost trimise în cerere?
 
